@@ -1,0 +1,87 @@
+.main_container{
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+
+}
+.game{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around;
+    align-items: center; */
+
+}
+
+.fieldGame {
+    /* margin-left: 20%;  */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+    box-shadow: 3px 4px 1px 2px rgba(17, 16, 16, 0.1) ;
+    width: 500px;
+    height: 500px;
+    background-color: darkgrey;
+    cursor: url(/src/js/fieldGame/molot_up.png), pointer;
+
+
+}
+.box {
+    /* margin-left: 10px; */
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    border: 2px solid #333;
+    /* box-shadow: 3px 4px 1px 2px rgba(1,1,1, 0.1) ; */
+    background-color: chocolate;
+
+}
+.box_active{
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    border: 2px solid #333;
+    /* box-shadow: 3px 4px 1px 2px rgba(1,1,1, 0.1) ; */
+    background-color: rgb(235, 134, 63);
+    /* background:url(/src/goblin.png) center/50px no-repeat; */
+    background-image: url(/src/js/goblin/goblin.png);
+}
+.activeGoblinBtn {
+    box-shadow: 3px 4px 1px 2px rgba(1,1,1, 0.1) ;
+    border: 2px solid #333;
+    width: 60px;
+    height:60px;
+    color: aliceblue;
+    text-align: center;
+    font-weight: 700;
+    background-color:rgb(16, 143, 25);
+    border-radius: 50%; 
+    cursor: pointer;
+
+}
+
+.BtnAndInform {
+    display: flex;
+    margin: 20px;
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+    /* background-color: blueviolet; */
+    align-items: baseline;
+    justify-content: space-around;
+    width: 500px;
+    height:80px;
+}
+.count {
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+.miss {
+    font-size: 30px;
+    font-weight: bolder;
+    
+}

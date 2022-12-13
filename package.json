@@ -1,0 +1,32 @@
+{
+  "name": "yes",
+  "version": "1",
+  "description": "Howework 3",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack server",
+    "build": "webpack",
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "author": "Ion",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
+    "core-js": "^3.26.1",
+    "css-loader": "^6.7.2",
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^29.3.1",
+    "jest-babel": "^1.0.1",
+    "mini-css-extract-plugin": "^2.7.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}

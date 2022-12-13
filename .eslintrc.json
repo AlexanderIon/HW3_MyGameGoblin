@@ -6,13 +6,17 @@
        "jest": true
     },
     "rules": {
+      
+      "no-param-reassign": 0,
       "import/extensions":[
           "error",
+          
           "ignorePackages"
       ],
 
       "no-restricted-syntax": [
-        "error",        
+        "error",
+                
         "LabeledStatement",
         "WithStatement"
       ]

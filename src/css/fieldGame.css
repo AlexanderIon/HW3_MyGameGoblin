@@ -13,6 +13,7 @@
     /* flex-wrap: wrap; */
     /* justify-content: space-around;
     align-items: center; */
+    
 
 }
 
@@ -64,7 +65,7 @@
 
 }
 
-.BtnAndInform {
+.inform {
     display: flex;
     margin: 20px;
     /* flex-direction: row; */
@@ -75,13 +76,24 @@
     width: 500px;
     height:80px;
 }
-.count {
+.count, .miss {
     font-size: 30px;
     font-weight: bolder;
     
 }
-.miss {
-    font-size: 30px;
-    font-weight: bolder;
+
+.alert_result{
     
+    position: absolute;
+    top: 270px;
+    margin-left:95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width:300px;
+    height:90px;
+    border: 3px salmon solid;
+    border-radius: 10px;
+    background-color: beige;
 }
